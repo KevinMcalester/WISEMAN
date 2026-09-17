@@ -1,0 +1,16 @@
+2026-04-01 21:03:53,759  [ERROR]: Accept loop error: [SSL: SSLV3_ALERT_BAD_CERTIFICATE] sslv3 alert bad certificate (_ssl.c:1018)
+2026-04-01 21:03:59,035  [ERROR]: Accept loop error: [SSL: SSLV3_ALERT_BAD_CERTIFICATE] sslv3 alert bad certificate (_ssl.c:1018)
+2026-04-06 23:27:15,587 [ERROR]: Accept loop error: [SSL: TLSV1_ALERT_UNKNOWN_CA] tlsv1 alert unknown ca (_ssl.c:1018)
+2026-04-06 23:36:20,261 [ERROR]: Accept loop error: [SSL: TLSV1_ALERT_UNKNOWN_CA] tlsv1 alert unknown ca (_ssl.c:1018)
+2026-04-06 23:41:36,545 [ERROR]: Accept loop error: [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1018)
+2026-04-06 23:50:38,817 [ERROR]: Accept loop error: [WinError 10053] An established connection was aborted by the software in your host machine
+2026-04-08 11:02:00,100 [ERROR]: Accept loop error: [WinError 10053] An established connection was aborted by the software in your host machine
+2026-04-11 18:01:21,336 [INFO]: Unified TLS server started on 0.0.0.0:1111
+2026-04-11 18:05:25,315 [INFO]: [!] Server started on 0.0.0.0:1111
+2026-04-11 18:06:42,658 [ERROR]: Accept loop error: [WinError 10053] An established connection was aborted by the software in your host machine
+2026-04-11 18:12:24,968 [INFO]: [!] Server started on 0.0.0.0:1111
+2026-04-11 18:12:29,152 [INFO]: Accepted TLS client drone1@('127.0.0.1', 3931)
+2026-04-11 18:12:29,153 [ERROR]: recv_framed_message error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-04-11 18:15:39,590 [INFO]: [!] Server started on 0.0.0.0:1111
+2026-04-11 18:15:46,197 [ERROR]: Accept loop error: [WinError 10053] An established connection was aborted by the software in your host machine
+2026-04-11 18:16:01,503 [ERROR]: Accept loop error: [WinError 10053] An established connection was aborted by the software in your host machine

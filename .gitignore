@@ -9,3 +9,49 @@ Makefile
 *.obj
 *.o
 *.log
+
+# =========================
+# SECURITY - NEVER COMMIT
+# =========================
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+*.csr
+*.srl
+*.bin
+
+**/private_keys/
+**/keys/
+**/certs/
+**/ca/
+
+.env
+.env.*
+**/secrets/
+**/credentials/
+
+**/public_keys/
+
+# External Quanser repository
+Quanser/
+
+# =========================
+# LARGE / GENERATED FILES
+# =========================
+*.weights
+*.onnx
+*.pt
+*.pth
+*.mp4
+
+# Generated ML datasets
+Ground_Control/Router/model_system/data/*.jsonl
+Ground_Control/Router/model_system/data/*.csv
+Ground_Control/Router/model_system/synthetic_data/generated_prepared/
+
+# Training logs
+Ground_Control/Router/model_system/training_logs/
+Ground_Control/Router/training_logs/

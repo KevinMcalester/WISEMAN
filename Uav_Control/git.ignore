@@ -1,0 +1,108 @@
+# =========================
+# WiSeMAN .gitignore
+# =========================
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# ---- IDE / Editors ----
+.idea/
+.vscode/
+*.iml
+
+# ---- Operating System ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Logs ----
+*.log
+logs/
+
+# ---- Temporary Files ----
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# ---- Build / Compiled Output ----
+build/
+dist/
+out/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+
+# ---- Python Packaging ----
+*.egg-info/
+.eggs/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- ML / AI Models ----
+*.pt
+*.pth
+*.onnx
+*.engine
+*.weights
+*.ckpt
+
+# ---- Large Raw Data ----
+Data/raw/*
+!Data/raw/.gitkeep
+
+# ---- Generated Analysis Results ----
+Analysis/plots/*
+Analysis/results/*
+!Analysis/plots/.gitkeep
+!Analysis/results/.gitkeep
+
+# ---- Experiment Output ----
+Experiments/**/results/
+Experiments/**/logs/
+
+# ---- Video / Camera Recordings ----
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# ---- Sensor / Telemetry Dumps ----
+*.bag
+*.db3
+
+# ---- ROS ----
+install/
+log/
+
+# ---- Secrets / Security ----
+.env
+.env.*
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# ---- Quanser / Simulation Generated Files ----
+*.slxc
+slprj/
+
+# Keep empty repository directories
+!.gitkeep
